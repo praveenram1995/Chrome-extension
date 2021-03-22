@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,        
+    "name": "Extension",
+    "description": "create an extension.",
+        "version": "1.0.0",
+     "browser_action": {
+     "default_popup": "extension.html"
+    },
+    "chrome_url_overrides":{                                
+        "newtab":"extension.html"
+    },
+    "permissions":["tabs"]
+}

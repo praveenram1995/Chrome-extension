@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Extensions newtab",
+    "description": "newtab extension!",
+    "version": "1.0",
+    "background": {
+      "scripts": ["popup.js"],
+      "persistent": true
+    },
+    
+    "chrome_url_overrides" : {
+      "newtab": "popup.html"
+
+    },
+    "permissions":["tabs"]
+    
+  }
